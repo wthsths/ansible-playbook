@@ -54,6 +54,8 @@ oidc:
   client_id: opensearch
   # IdP client secret
   client_secret: "00000000-0000-0000-0000-000000000000"
+  # idP root certificate authority file
+  root_ca: ""
 
 # Overwrite demo configurations with your own
 copy_custom_security_configs: false

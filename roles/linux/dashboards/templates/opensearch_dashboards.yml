@@ -22,4 +22,5 @@ opensearch_security.openid.scope: "{{ oidc.scopes }}"
 opensearch_security.openid.client_secret: "{{ oidc.client_secret }}"
 opensearch_security.openid.connect_url: "{{ oidc.connect_url }}"
 opensearch_security.openid.verify_hostnames: true
+opensearch_security.openid.root_ca: "{{ oidc.root_ca }}"
 {% endif %}
